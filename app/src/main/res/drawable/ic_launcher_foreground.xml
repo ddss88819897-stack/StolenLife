@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 상태바 등대 비콘과 같은 8x12 픽셀 스프라이트. 4dp 격자, 안티앨리어싱 없음. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FF4A5A50" android:pathData="M46,38h4v4h-4zM50,38h4v4h-4zM54,38h4v4h-4zM58,38h4v4h-4zM38,74h4v4h-4zM42,74h4v4h-4zM46,74h4v4h-4zM50,74h4v4h-4zM54,74h4v4h-4zM58,74h4v4h-4zM62,74h4v4h-4zM66,74h4v4h-4z" />
+    <path android:fillColor="#FFAEB8B1" android:pathData="M50,42h4v4h-4zM54,42h4v4h-4zM46,46h4v4h-4zM58,46h4v4h-4zM46,50h4v4h-4zM50,50h4v4h-4zM54,50h4v4h-4zM58,50h4v4h-4zM46,54h4v4h-4zM58,54h4v4h-4zM46,58h4v4h-4zM50,58h4v4h-4zM54,58h4v4h-4zM58,58h4v4h-4zM42,62h4v4h-4zM46,62h4v4h-4zM58,62h4v4h-4zM62,62h4v4h-4zM42,66h4v4h-4zM46,66h4v4h-4zM50,66h4v4h-4zM54,66h4v4h-4zM58,66h4v4h-4zM62,66h4v4h-4zM38,70h4v4h-4zM42,70h4v4h-4zM46,70h4v4h-4zM50,70h4v4h-4zM54,70h4v4h-4zM58,70h4v4h-4zM62,70h4v4h-4zM66,70h4v4h-4z" />
+    <path android:fillColor="#FF8C2D2D" android:pathData="M50,46h4v4h-4zM54,46h4v4h-4zM50,54h4v4h-4zM54,54h4v4h-4zM50,62h4v4h-4zM54,62h4v4h-4z" />
+    <path android:fillColor="#FFC9A96E" android:pathData="M50,30h4v4h-4zM54,30h4v4h-4zM46,34h4v4h-4zM50,34h4v4h-4zM54,34h4v4h-4zM58,34h4v4h-4z" />
+</vector>

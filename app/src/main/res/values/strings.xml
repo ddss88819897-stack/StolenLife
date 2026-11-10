@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  화면 틀(크롬)에 고정으로 박히는 문구만 여기 둔다.
+  독백 · 메신저 · 문서 같은 이야기 본문은 ViewModel 이 다루므로 data/GameRepository.kt 에 있다.
+-->
+<resources>
+    <string name="app_name">Stolen Life</string>
+
+    <!-- 상태바 -->
+    <string name="os_name">ParanOS 98</string>
+    <string name="proxy_on">P98</string>
+    <string name="proxy_off">P98 ×</string>
+    <string name="battery_level">%1$d%%</string>
+
+    <!-- 부팅 -->
+    <string name="boot_bios">ParanOS 98 BIOS v0.419\nMemory Test ........ 640K OK\nProxy 1998 ......... LOADED\nRoot access ........ GRANTED\nLocation ........... 전남 고흥군 월포읍</string>
+    <string name="boot_title">빌린 이름</string>
+    <string name="boot_subtitle">STOLEN LIFE</string>
+    <string name="boot_new">새로 시작</string>
+    <string name="boot_continue">이어하기</string>
+    <string name="boot_foot">헤드폰 권장 · 독백 바를 누르면 대사를 넘긴다\n단서함은 하단 바에 · \? 는 사고정리</string>
+
+    <!-- 독백 바 -->
+    <string name="mono_tag">0419</string>
+    <string name="mono_caption">// 내면 기록</string>
+    <string name="mono_idle">…</string>
+    <string name="mono_more">▼</string>
+
+    <!-- 하단 시스템 바 (글리프는 픽셀 서체로 따로 찍는다) -->
+    <string name="nav_back_glyph">‹</string>
+    <string name="nav_back">뒤로</string>
+    <string name="nav_home_glyph">○</string>
+    <string name="nav_home">홈</string>
+    <string name="nav_drawer_glyph">≡</string>
+    <string name="nav_drawer">단서함</string>
+    <string name="nav_hint_glyph">\?</string>
+    <string name="nav_hint">사고정리</string>
+    <string name="chip_count">%1$02d</string>
+
+    <!-- 단서함 바텀시트 -->
+    <string name="drawer_title">EVIDENCE FILE // 단서함</string>
+    <string name="drawer_count">%1$02d ITEMS</string>
+    <string name="drawer_sub_target_prefix">"검색 대상 "</string>
+    <string name="drawer_sub_target_suffix">" — 단서를 누르면 바로 검색한다."</string>
+    <string name="drawer_sub_idle">검색 · InstaPixel · FaceBook95 안에서 열면 단서를 눌러 바로 검색할 수 있다.</string>
+    <string name="drawer_empty_none">아직 쥔 단서가 없다. 문서 속 밑줄 단어를 눌러 모으자.</string>
+    <string name="drawer_empty_filter">이 분류의 단서가 없다.</string>
+    <string name="chip_type_tag">[%1$s]</string>
+
+    <!-- [PIN] 대조 버퍼 -->
+    <string name="pin_label">[PIN]\nEVIDENCE BUFFER</string>
+    <string name="pin_source">%1$s — 다른 문서의 밑줄 문장을 눌러 대조</string>
+    <string name="pin_clear">×</string>
+    <string name="pin_clear_cd">버퍼 비우기</string>
+    <string name="pin_menu_set">[PIN] 대조 버퍼에 고정</string>
+    <string name="pin_menu_clear">[PIN] 버퍼 비우기</string>
+    <string name="pin_menu_match">[MATCH] 버퍼의 문장과 대조</string>
+    <string name="pin_menu_replace">[PIN] 이 문장으로 교체</string>
+
+    <!-- 알림(토스트) -->
+    <string name="toast_tag_msg">[MSG]</string>
+    <string name="toast_tag_file">[FILE]</string>
+    <string name="toast_tag_spam">[SPAM]</string>
+    <string name="toast_tag_warn">[WARN]</string>
+    <string name="toast_chip_acquired">단서 획득</string>
+    <string name="toast_new_message">새 메시지</string>
+    <string name="toast_restored">복원된 문서 %1$d건 — %2$s</string>
+
+    <!-- 교차검증 -->
+    <string name="cross_title">[MATCH] CROSS-REFERENCE</string>
+    <string name="cross_heading">교차검증 성립</string>
+    <string name="cross_versus">⟷ 대조 ⟷</string>
+    <string name="cross_side_a">A // %1$s</string>
+    <string name="cross_side_b">B // %1$s</string>
+
+    <!-- 공용 버튼 -->
+    <string name="ok">확인</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="close_glyph">×</string>
+    <string name="close_cd">닫기</string>
+
+    <!-- 키패드 -->
+    <string name="keypad_title">[LOCKED //] %1$s</string>
+    <string name="keypad_hint">HINT // %1$s</string>
+    <string name="keypad_placeholder">_ _ _ _</string>
+    <string name="keypad_delete">⌫</string>
+    <string name="keypad_delete_cd">지우기</string>
+    <string name="keypad_enter">↵</string>
+    <string name="keypad_enter_cd">확인</string>
+
+    <!-- 감사 바인더 상단 인덱스 탭 -->
+    <string name="doc_binder_tab">AUDIT FILE // 박태성</string>
+
+    <!-- 잠금 버튼 -->
+    <string name="lock_closed">[LOCKED //]</string>
+    <string name="lock_open">[OPEN //]</string>
+
+    <!-- 챕터 카드 -->
+    <string name="chapter_number">CHAPTER %1$02d</string>
+    <string name="chapter_date">2026.11.03 (화) %1$s</string>
+    <string name="chapter_tap">TAP TO CONTINUE</string>
+
+    <!-- 홈 런처 -->
+    <string name="home_date">2026.11.03 (화) · %1$s</string>
+    <string name="home_build">PARANOS 98 · BUILD 0419 · ROOTED</string>
+
+    <!-- 앱 공통 바 -->
+    <string name="appbar_back">‹</string>
+    <string name="appbar_back_cd">뒤로</string>
+
+    <!-- 검색 (ParanNet · InstaPixel · FaceBook 95) -->
+    <string name="search_prompt">[SEARCH &gt;]</string>
+    <string name="search_placeholder">단서함에서 칩을 골라 검색</string>
+    <string name="search_tip_web">검색창을 누르거나 하단의 단서함을 열고 칩을 누르면 바로 검색된다. 문서를 읽는 중에도 단서함에서 바로 검색할 수 있다.</string>
+    <string name="search_tip_insta">InstaPixel — 사람·계정 이름 칩으로 프로필을 찾는다.</string>
+    <string name="search_tip_fb">FaceBook 95 — 사람·단체 이름 칩으로 프로필과 그룹을 찾는다. \'10년 전 오늘\'을 놓치지 말 것.</string>
+    <string name="search_none_title">No Results Found</string>
+    <string name="search_none_body">\'%1$s\'에 대한 결과가 없습니다.</string>
+    <string name="search_new">NEW</string>
+
+    <!-- 메신저 -->
+    <string name="msg_secure_suffix">" · 보안 메신저"</string>
+    <string name="msg_typing">%1$s 입력 중…</string>
+    <string name="msg_footer">답장 기능 없음 · Proxy 1998 단방향 수신</string>
+
+    <!-- 파란누리 1998 터미널 -->
+    <string name="paran_banner">천리안 V5.0 터미널 에뮬레이터</string>
+    <string name="paran_boot">(C) 1998 ParanOS Project\n\n모뎀 상태: 대기\n</string>
+    <string name="paran_dial">"ATDT 01410  (전화 접속)"</string>
+    <string name="paran_connect">CONNECT 28800/ARQ/V34</string>
+    <string name="paran_welcome">천리안에 오신 것을 환영합니다.\n\n명령어를 고르십시오 (키보드 입력 차단됨)\n</string>
+    <string name="paran_go">go paran</string>
+    <string name="paran_bye">bye</string>
+    <string name="paran_menu_banner">━━ 문학동호회 파란누리 (CUG) ━━</string>
+    <string name="paran_menu_info">"  시삽: 바다새   회원: 214명\n"</string>
+    <string name="paran_menu_item">%1$d. %2$s</string>
+    <string name="paran_board_header">"[%1$s]  번호  제목                    글쓴이"</string>
+    <string name="paran_prompt">"&gt; "</string>
+
+    <!-- 금고95 -->
+    <string name="vault_title">VAULT 95</string>
+    <string name="vault_org">무적문화재단 내부 금고 시스템</string>
+    <string name="vault_need_key">마스터키 필요 (8자리)</string>
+    <string name="vault_enter_key">[ 마스터키 입력 ]</string>
+    <string name="vault_key_ok">MASTER KEY [OK]</string>
+    <string name="vault_wait_otp">하드웨어 OTP 인증 대기 중</string>
+    <string name="vault_press_token">203호 탁자 위 토큰의 버튼을 직접 누르십시오.</string>
+    <string name="vault_to_room">[ 203호로 가기 ]</string>
+
+    <!-- 하드웨어 OTP -->
+    <string name="otp_title">HARDWARE OTP // TOKEN</string>
+    <string name="otp_sent">인증 코드가 금고95로 자동 전송되었습니다.</string>
+
+    <!-- 파란여관 203호 -->
+    <string name="room_marker">[ + ]</string>
+    <string name="room_inspect">INSPECT // 조사 목록</string>
+    <string name="room_records">RECORDS // 기록</string>
+    <string name="room_state_done">조사 완료</string>
+    <string name="room_state_hot">단서 있음</string>
+    <string name="room_state_idle">미조사</string>
+
+    <!-- 설정 -->
+    <string name="set_proxy_legend">Proxy 1998 · 로컬 필터</string>
+    <string name="set_proxy_active">상태: ● 활성 (본명 데이터 차단 중)</string>
+    <string name="set_proxy_locked">강제 종료 — 관리자 권한 없음</string>
+    <string name="set_proxy_hold">[WARN] 필터 강제 종료 — 길게 누르기</string>
+    <string name="set_proxy_killed_prefix">"상태: "</string>
+    <string name="set_proxy_killed">강제 종료됨</string>
+    <string name="set_proxy_restored">복원된 문서:</string>
+    <string name="set_proxy_restored_none">(열람한 문서 없음)</string>
+    <string name="set_proxy_restored_item">· %1$s</string>
+    <string name="set_system_legend">시스템</string>
+    <string name="set_sound">"사운드: "</string>
+    <string name="set_sound_on">켜짐</string>
+    <string name="set_sound_off">꺼짐</string>
+    <string name="set_reset">처음부터 다시</string>
+    <string name="set_reset_confirm">진행 상황을 지우고 처음부터 시작할까요?</string>
+    <string name="set_jump_legend">시연용 챕터 점프</string>
+    <string name="set_jump_ch2">Ch.2</string>
+    <string name="set_jump_ch3">Ch.3</string>
+    <string name="set_jump_end">엔딩 직전</string>
+    <string name="set_rooted">ParanOS 98 build 0419 · 이 기기는 루팅되어 있습니다.</string>
+
+    <!-- 엔딩 -->
+    <string name="fin_title">FIN</string>
+    <string name="fin_subtitle">빌린 이름 (Stolen Life)</string>
+    <string name="fin_stats">검색 %1$d회 · 교차검증 %2$d회 · 물리적 접촉 %3$d회\n경찰청으로 전송된 로그 %4$d건\n— 당신이 누른 모든 것이 증거가 되었다 —</string>
+    <string name="fin_restart">처음부터</string>
+</resources>
